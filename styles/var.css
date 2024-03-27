@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --color-black: #000;
+  --color-dark: #383A4C;
+  --color-white: #fff;
+  --color-purplPale: #eadeed;
+  --color-purplLight: #CD06FF;
+  --color-purpl: #640aa3;
+  --color-purplDark: #840aa3;
+  --color-purplDarker: #6C0287;
+
+  --color-backgroundPrimary: #2F324B;
+  --color-backgroundSecondary: #F9F9F9;
+
+  --color-textPrimary: var(--color-white);
+  --color-textSecondary: var(--color-dark);
+
+  --gradient-linear: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  --gradient-radial: radial-gradient(transparent, rgba(108, 2, 135, 0.5));
+
+}

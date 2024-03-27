@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../assets/fonts/Roboto-Regular.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../assets/fonts/Roboto-Medium.woff2);
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../assets/fonts/Roboto-Bold.woff2);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../assets/fonts/Roboto-Black.woff2);
+  font-weight: 900;
+  font-display: swap;
+}
+
+html {
+  position: relative;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  color: var(--color-textPrimary);
+  background-color: var(--color-backgroundSecondary);
+}
+
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+fieldset {
+  padding: 0;
+}
+
+ul,
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset,
+blockquote {
+  margin: 0;
+}
+
+iframe,
+input {
+  border: none;
+}
+
+address, cite {
+  font-style: normal;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+
+/*
+Пример контейнера
+
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2, 
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана
+*/
+
+.container {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row_justify_between {
+  justify-content: space-between;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}
