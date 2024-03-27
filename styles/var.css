@@ -15,6 +15,9 @@
   --color-textPrimary: var(--color-white);
   --color-textSecondary: var(--color-dark);
 
+  --color-btnPrimary: #15A9CB;
+  --color-btnSecondary: #555A7B;
+
   --gradient-linear: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
   --gradient-radial: radial-gradient(transparent, rgba(108, 2, 135, 0.5));
 

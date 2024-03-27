@@ -131,8 +131,9 @@ address, cite {
 */
 
 .container {
+  --gap: 30px;
   max-width: 1240px;
-  padding: 0 30px;
+  padding: 0 var(--gap);
   margin: 0 auto;
 }
 
@@ -159,4 +160,16 @@ address, cite {
   line-height: 125%;
   text-transform: uppercase;
   text-align: center;
+}
+
+@media (min-width: 320px) {
+  .container {
+    --gap: 15px;
+  }
+}
+
+@media (min-width: 425px) {
+  .container {
+    --gap: 30px;
+  }
 }
