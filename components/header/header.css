@@ -32,7 +32,7 @@
   background-color: var(--color-btnSecondary);
 }
 
-@media (min-width: 425px) {
+@media (min-width: 426px) {
   .logo {
     --size: 60px;
   }
@@ -44,6 +44,7 @@
   .call {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 4px;
   }
 
@@ -61,7 +62,34 @@
   .call__btn_desktop {
     font-size: 1.3rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 2rem;
     border-bottom: 1px solid #fff;
+    color: var(--color-white);
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    padding-top: 40px;
+  }
+
+  .logo {
+    --size: 68px;
+  }
+
+  .call__link {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+
+  .call__btn_desktop {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
   }
 }
