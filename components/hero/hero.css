@@ -21,10 +21,7 @@
 .hero__title {
   margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.86);
-  font-size: 2rem;
   font-weight: 900;
-  line-height: 2.3rem;
-  text-align: center;
 }
 
 .hero__subtitle {
@@ -77,8 +74,8 @@
   }
 
   .hero__wrapper {
-    padding-top: 126px;
-    padding-bottom: 41px;
+    padding-top: 87px;
+    padding-bottom: 0;
   }
 
   .hero__subtitle_desktop {

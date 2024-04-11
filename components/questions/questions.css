@@ -1,0 +1,137 @@
+.questions {
+  --bg-img: url(img/q320.jpeg);
+  background-image:
+    linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
+    var(--bg-img);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.questions__title {
+  margin-bottom: 14px;
+}
+
+.questions__subtitle {
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.questions__form {}
+
+.form__wrapper {
+  margin: 0 auto;
+  max-width: 377px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 42px;
+}
+
+.questions__input {
+  padding: 6px 16px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  color: var(--color-textPrimary);
+}
+
+.questions__btn {
+  display: block;
+  margin: 0 auto 28px auto;
+  padding: 10px 30px;
+}
+
+.questions__agreement {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.questions__agreement a {
+  color: #4A76A8;
+  border-bottom: 1px solid#4A76A8;
+}
+
+@media (min-width: 426px) {
+  .questions {
+    padding-bottom: 56px;
+    --bg-img: url(img/q1024.jpeg);
+  }
+
+  .questions__title {
+    margin-bottom: 16px;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .questions__subtitle {
+    margin-bottom: 45px;
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .form__wrapper {
+    gap: 17px;
+    margin-bottom: 50px;
+  }
+
+  .questions__input {
+    padding: 8px 23px;
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .questions__agreement {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  .questions__btn {
+    padding: 12px 38px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .questions {
+    padding-bottom: 70px;
+    --bg-img: url(img/q1600.jpeg);
+  }
+
+  .questions__title {
+    margin-bottom: 18px;
+    font-size: 3.5rem;
+    line-height: 4.1rem;
+  }
+
+  .questions__subtitle {
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  .form__wrapper {
+    max-width: 423px;
+    margin-bottom: 50px;
+  }
+
+  .questions__input {
+    padding: 9px 25px;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .questions__agreement {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  .questions__btn {
+    margin-bottom: 50px;
+  }
+}
